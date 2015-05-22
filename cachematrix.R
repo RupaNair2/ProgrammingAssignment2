@@ -35,7 +35,11 @@ cacheSolve <- function(x, ...) {
   inv
   ## Return a matrix that is the inverse of 'x'
 }
-#Sample tests with answer
+
+
+
+
+# Example file run with the above code with expected answer
 #Create an invertible matrix of 3 x 3
 #x <- matrix(c(1,2,3,0,1,4,5,6,0), nrow=3)
 
