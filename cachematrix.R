@@ -35,15 +35,23 @@ cacheSolve <- function(x, ...) {
   inv
   ## Return a matrix that is the inverse of 'x'
 }
-#Sample tests
+#Sample tests with answer
 #Create an invertible matrix of 3 x 3
-x <- matrix(c(1,2,3,0,1,4,5,6,0), nrow=3)
+#x <- matrix(c(1,2,3,0,1,4,5,6,0), nrow=3)
 
 # Print x
-x
-
-# Make Cache Matrix of x and store in y
-y <- makeCacheMatrix(x)
-
-# Inverse x using cacheSolve
-cacheSolve(y)
+#x
+#[,1] [,2] [,3]
+#[1,]    1    0    5
+#[2,]    2    1    6
+#[3,]    3    4    0
+> 
+  > # Make Cache Matrix of x and store in y
+ # > y <- makeCacheMatrix(x)
+> 
+  > # Inverse x using cacheSolve
+  #> cacheSolve(y)
+#[,1] [,2] [,3]
+#[1,]  -24   20   -5
+#[2,]   18  -15    4
+#[3,]    5   -4    1
